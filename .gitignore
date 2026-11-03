@@ -1,0 +1,41 @@
+# Dependencies and build output
+**/node_modules/
+**/.next/
+**/out/
+**/dist/
+**/*.tsbuildinfo
+**/coverage/
+
+# Credentials and local settings; only the example may be published
+**/.env*
+!**/.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+**/.vercel/
+**/.claude/
+**/.agents/
+**/.codex/
+
+# Customer data and generated assets (fictional examples live under examples/)
+demo-builder/leads/
+*.csv
+!examples/sample-leads.csv
+*.xlsx
+*.xls
+*.jsonl
+**/raw.json
+**/public/images/leads/
+*.sql.dump
+*.dump
+*.sqlite*
+*.log
+*.zip
+
+# Local tooling and OS files
+.DS_Store
+**/.DS_Store
+**/.cache/
+**/playwright-report/
+**/test-results/

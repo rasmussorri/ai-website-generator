@@ -1,0 +1,102 @@
+{
+  "slug": "northstar-workshop",
+  "company": {
+    "name": "Northstar Workshop",
+    "tagline": "Tilaa ajatuksille. Muotoa puulle.",
+    "city": "Helsinki",
+    "industry": "Puusepäntyö",
+    "phone": "",
+    "email": "hello@northstar.example",
+    "website": "https://northstar.example",
+    "primaryColor": "#bd512e",
+    "navTheme": "dark",
+    "logo": "/images/examples/northstar-logo.svg",
+    "heroImage": "/images/examples/workshop.svg",
+    "locations": [
+      "Helsinki",
+      "Espoo"
+    ]
+  },
+  "hero": {
+    "headline": "Tilasi. Sinun näköisesi.",
+    "subtext": "Mittatilauskalusteita ja huolella suunniteltuja tiloja. Kuvitteellinen Northstar Workshop näyttää, miten yrityksen tarina muuttuu verkkosivustoksi.",
+    "ctaPrimary": {
+      "label": "Kerro ideastasi",
+      "href": "#yhteystiedot"
+    },
+    "ctaSecondary": {
+      "label": "Tutustu palveluihin",
+      "href": "#features"
+    },
+    "credentialStrip": [
+      "Mittatilaustyö",
+      "Luonnonmateriaalit",
+      "Yhdessä suunniteltu"
+    ]
+  },
+  "nav": [
+    {
+      "label": "Palvelut",
+      "href": "#features"
+    },
+    {
+      "label": "Meistä",
+      "href": "#about"
+    },
+    {
+      "label": "Yhteystiedot",
+      "href": "#yhteystiedot"
+    }
+  ],
+  "services": [
+    {
+      "name": "Mittatilauskalusteet",
+      "description": "Tilaasi sopivia säilytysratkaisuja ja kalusteita luonnonmateriaaleista.",
+      "iconName": "Wrench"
+    },
+    {
+      "name": "Tilasuunnittelu",
+      "description": "Yhdistämme toimivan arjen, rauhalliset sävyt ja selkeät yksityiskohdat.",
+      "iconName": "Buildings"
+    },
+    {
+      "name": "Asennus ja viimeistely",
+      "description": "Huolellinen toteutus suunnittelupöydältä valmiiseen kokonaisuuteen.",
+      "iconName": "CheckCircle"
+    }
+  ],
+  "servicesSection": {
+    "heading": "Ideasta osaksi arkea.",
+    "subtext": "Esimerkki palveluista, jotka voidaan esittää selkeänä kokonaisuutena.",
+    "sectionLabel": "Palvelumme"
+  },
+  "brands": [],
+  "about": {
+    "heading": "Hyvät tilat syntyvät kuuntelemalla.",
+    "text": "Northstar Workshop on tätä portfoliota varten luotu kuvitteellinen puusepänverstas. Esimerkkisisältö näyttää, miten palvelut, brändi ja yhteydenotto yhdistyvät samaan sivustoon.",
+    "highlights": [
+      {
+        "value": "Puu",
+        "label": "Luonnollinen materiaali"
+      },
+      {
+        "value": "Idea",
+        "label": "Yhteinen lähtökohta"
+      },
+      {
+        "value": "Tila",
+        "label": "Sinun tarpeisiisi"
+      }
+    ],
+    "quote": "Kaunis yksityiskohta toimii myös arjessa.",
+    "quoteAuthor": "Northstar Workshop · kuvitteellinen yritys",
+    "sectionLabel": "Ajatuksemme"
+  },
+  "contact": {
+    "heading": "Mitä rakennetaan seuraavaksi?",
+    "subtext": "Tämä on portfolion esimerkkisivu. Yhteystiedot eivät kuulu todelliselle yritykselle.",
+    "cta": "Lähetä viesti",
+    "sectionLabel": "Aloitetaan keskustelu",
+    "variant": "form"
+  }
+}

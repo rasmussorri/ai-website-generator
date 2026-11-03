@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap");
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme {
+  --font-display: "Outfit", system-ui, sans-serif;
+  --font-body: "Outfit", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+
+  /* Brand colors are injected per-lead via inline CSS variable on the page wrapper.
+     The fallback below is only used if a lead omits primaryColor.
+     NOTE: keep @theme (not @theme inline) so utilities compile to var(--color-brand)
+     and can be overridden at runtime. */
+  --color-brand: #2563eb;
+  --color-brand-dark: #1d4ed8;
+  --color-brand-light: #60a5fa;
+
+  --color-zinc-50: #fafafa;
+  --color-zinc-100: #f4f4f5;
+  --color-zinc-200: #e4e4e7;
+  --color-zinc-300: #d4d4d8;
+  --color-zinc-400: #a1a1aa;
+  --color-zinc-500: #71717a;
+  --color-zinc-600: #52525b;
+  --color-zinc-700: #3f3f46;
+  --color-zinc-800: #27272a;
+  --color-zinc-900: #18181b;
+  --color-zinc-950: #09090b;
+
+  --color-surface: #ffffff;
+  --color-border: #e4e4e7;
+  --color-text-main: #09090b;
+  --color-text-muted: #52525b;
+}
+
+/* ── Base ─────────────────────────────────────────────── */
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 7rem;
+}
+
+body {
+  font-family: var(--font-body);
+  color: var(--color-text-main);
+  background: var(--color-zinc-50);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ── Typography ───────────────────────────────────────── */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-display);
+  font-weight: 600;
+  letter-spacing: -0.025em;
+}
+
+/* ── Bento & Glassmorphism ───────────────────────────── */
+.bento-card {
+  background: #ffffff;
+  border: 1px solid var(--color-zinc-200);
+  border-radius: 2rem;
+  padding: 2.5rem;
+  transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -2px rgba(0, 0, 0, 0.05);
+}
+
+.bento-card:hover {
+  border-color: var(--color-brand);
+  box-shadow: 0 20px 40px -15px rgba(0, 0, 0, 0.05);
+  transform: translateY(-2px);
+}
+
+.glass-panel {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+}
+
+.dark-glass-panel {
+  background: rgba(9, 9, 11, 0.8);
+  backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+/* ── Motion Utilities ────────────────────────────────── */
+.mask-reveal {
+  mask-image: linear-gradient(to bottom, black 50%, transparent 100%);
+  mask-size: 100% 200%;
+  mask-position: 0 100%;
+  transition: mask-position 0.8s ease;
+}
+
+.mask-reveal.is-visible {
+  mask-position: 0 0;
+}

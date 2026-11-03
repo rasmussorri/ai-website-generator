@@ -1,0 +1,577 @@
+[
+  {
+    "id": "00000000-0000-4000-8000-000000000001",
+    "company_name": "Northstar Workshop",
+    "ceo_name": "Example Contact",
+    "url": "https://northstar-workshop.example",
+    "phone": "",
+    "email": "hello@northstar-workshop.example",
+    "city": "Helsinki",
+    "industry": "Puusepäntyö",
+    "created_at": "2026-10-20T09:00:00Z",
+    "site_quality": "82",
+    "site_quality_reason": "Esimerkkianalyysi: sivuston rakennetta ja mobiilinäkymää voidaan selkeyttää.",
+    "site_quality_flags": [
+      "Dated layout",
+      "Mobile usability"
+    ],
+    "has_demo_built": true,
+    "demo_slug": "northstar-workshop",
+    "demo_url": "http://localhost:3000/northstar-workshop",
+    "funnel_stage": "meeting-accepted",
+    "sms_status": "sent",
+    "sms_sent_at": "2026-11-02T09:00:00Z",
+    "email_status": null,
+    "email_sent_at": null,
+    "demo_opened_at": "2026-11-02T10:00:00Z",
+    "demo_open_count": 3,
+    "demo_deleted_at": null,
+    "demo_built_at": "2026-11-01T10:00:00Z",
+    "batch_name": "Portfolio examples",
+    "title": "Example role",
+    "company_size": 5,
+    "gif_url": "/images/examples/demo-preview.gif",
+    "content": {
+      "slug": "northstar-workshop",
+      "company": {
+        "name": "Northstar Workshop",
+        "tagline": "Tilaa ajatuksille. Muotoa puulle.",
+        "city": "Helsinki",
+        "industry": "Puusepäntyö",
+        "phone": "",
+        "email": "hello@northstar.example",
+        "website": "https://northstar.example",
+        "primaryColor": "#bd512e",
+        "navTheme": "dark",
+        "logo": "/images/examples/northstar-logo.svg",
+        "heroImage": "/images/examples/workshop.svg",
+        "locations": [
+          "Helsinki",
+          "Espoo"
+        ]
+      },
+      "hero": {
+        "headline": "Tilasi. Sinun näköisesi.",
+        "subtext": "Mittatilauskalusteita ja huolella suunniteltuja tiloja. Kuvitteellinen Northstar Workshop näyttää, miten yrityksen tarina muuttuu verkkosivustoksi.",
+        "ctaPrimary": {
+          "label": "Kerro ideastasi",
+          "href": "#yhteystiedot"
+        },
+        "ctaSecondary": {
+          "label": "Tutustu palveluihin",
+          "href": "#features"
+        },
+        "credentialStrip": [
+          "Mittatilaustyö",
+          "Luonnonmateriaalit",
+          "Yhdessä suunniteltu"
+        ]
+      },
+      "nav": [
+        {
+          "label": "Palvelut",
+          "href": "#features"
+        },
+        {
+          "label": "Meistä",
+          "href": "#about"
+        },
+        {
+          "label": "Yhteystiedot",
+          "href": "#yhteystiedot"
+        }
+      ],
+      "services": [
+        {
+          "name": "Mittatilauskalusteet",
+          "description": "Tilaasi sopivia säilytysratkaisuja ja kalusteita luonnonmateriaaleista.",
+          "iconName": "Wrench"
+        },
+        {
+          "name": "Tilasuunnittelu",
+          "description": "Yhdistämme toimivan arjen, rauhalliset sävyt ja selkeät yksityiskohdat.",
+          "iconName": "Buildings"
+        },
+        {
+          "name": "Asennus ja viimeistely",
+          "description": "Huolellinen toteutus suunnittelupöydältä valmiiseen kokonaisuuteen.",
+          "iconName": "CheckCircle"
+        }
+      ],
+      "servicesSection": {
+        "heading": "Ideasta osaksi arkea.",
+        "subtext": "Esimerkki palveluista, jotka voidaan esittää selkeänä kokonaisuutena.",
+        "sectionLabel": "Palvelumme"
+      },
+      "brands": [],
+      "about": {
+        "heading": "Hyvät tilat syntyvät kuuntelemalla.",
+        "text": "Northstar Workshop on tätä portfoliota varten luotu kuvitteellinen puusepänverstas. Esimerkkisisältö näyttää, miten palvelut, brändi ja yhteydenotto yhdistyvät samaan sivustoon.",
+        "highlights": [
+          {
+            "value": "Puu",
+            "label": "Luonnollinen materiaali"
+          },
+          {
+            "value": "Idea",
+            "label": "Yhteinen lähtökohta"
+          },
+          {
+            "value": "Tila",
+            "label": "Sinun tarpeisiisi"
+          }
+        ],
+        "quote": "Kaunis yksityiskohta toimii myös arjessa.",
+        "quoteAuthor": "Northstar Workshop · kuvitteellinen yritys",
+        "sectionLabel": "Ajatuksemme"
+      },
+      "contact": {
+        "heading": "Mitä rakennetaan seuraavaksi?",
+        "subtext": "Tämä on portfolion esimerkkisivu. Yhteystiedot eivät kuulu todelliselle yritykselle.",
+        "cta": "Lähetä viesti",
+        "sectionLabel": "Aloitetaan keskustelu",
+        "variant": "form"
+      }
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000002",
+    "company_name": "Harbor Light Studio",
+    "ceo_name": "Example Contact",
+    "url": "https://harbor-light-studio.example",
+    "phone": "",
+    "email": "hello@harbor-light-studio.example",
+    "city": "Espoo",
+    "industry": "Sisustussuunnittelu",
+    "created_at": "2026-10-21T09:00:00Z",
+    "site_quality": "77",
+    "site_quality_reason": "Esimerkkianalyysi: sivuston rakennetta ja mobiilinäkymää voidaan selkeyttää.",
+    "site_quality_flags": [
+      "Dated layout",
+      "Mobile usability"
+    ],
+    "has_demo_built": true,
+    "demo_slug": "harbor-light-studio",
+    "demo_url": "http://localhost:3000/harbor-light-studio",
+    "funnel_stage": "contacted",
+    "sms_status": null,
+    "sms_sent_at": null,
+    "email_status": null,
+    "email_sent_at": null,
+    "demo_opened_at": null,
+    "demo_open_count": 0,
+    "demo_deleted_at": null,
+    "demo_built_at": "2026-11-01T10:00:00Z",
+    "batch_name": "Portfolio examples",
+    "title": "Example role",
+    "company_size": 5,
+    "gif_url": "/images/examples/demo-preview.gif",
+    "content": {
+      "slug": "harbor-light-studio",
+      "company": {
+        "name": "Harbor Light Studio",
+        "tagline": "Tilaa ajatuksille. Muotoa puulle.",
+        "city": "Helsinki",
+        "industry": "Puusepäntyö",
+        "phone": "",
+        "email": "hello@harbor-light-studio.example",
+        "website": "https://harbor-light-studio.example",
+        "primaryColor": "#bd512e",
+        "navTheme": "dark",
+        "logo": "/images/examples/northstar-logo.svg",
+        "heroImage": "/images/examples/workshop.svg",
+        "locations": [
+          "Helsinki",
+          "Espoo"
+        ]
+      },
+      "hero": {
+        "headline": "Tilasi. Sinun näköisesi.",
+        "subtext": "Mittatilauskalusteita ja huolella suunniteltuja tiloja. Kuvitteellinen Northstar Workshop näyttää, miten yrityksen tarina muuttuu verkkosivustoksi.",
+        "ctaPrimary": {
+          "label": "Kerro ideastasi",
+          "href": "#yhteystiedot"
+        },
+        "ctaSecondary": {
+          "label": "Tutustu palveluihin",
+          "href": "#features"
+        },
+        "credentialStrip": [
+          "Mittatilaustyö",
+          "Luonnonmateriaalit",
+          "Yhdessä suunniteltu"
+        ]
+      },
+      "nav": [
+        {
+          "label": "Palvelut",
+          "href": "#features"
+        },
+        {
+          "label": "Meistä",
+          "href": "#about"
+        },
+        {
+          "label": "Yhteystiedot",
+          "href": "#yhteystiedot"
+        }
+      ],
+      "services": [
+        {
+          "name": "Mittatilauskalusteet",
+          "description": "Tilaasi sopivia säilytysratkaisuja ja kalusteita luonnonmateriaaleista.",
+          "iconName": "Wrench"
+        },
+        {
+          "name": "Tilasuunnittelu",
+          "description": "Yhdistämme toimivan arjen, rauhalliset sävyt ja selkeät yksityiskohdat.",
+          "iconName": "Buildings"
+        },
+        {
+          "name": "Asennus ja viimeistely",
+          "description": "Huolellinen toteutus suunnittelupöydältä valmiiseen kokonaisuuteen.",
+          "iconName": "CheckCircle"
+        }
+      ],
+      "servicesSection": {
+        "heading": "Ideasta osaksi arkea.",
+        "subtext": "Esimerkki palveluista, jotka voidaan esittää selkeänä kokonaisuutena.",
+        "sectionLabel": "Palvelumme"
+      },
+      "brands": [],
+      "about": {
+        "heading": "Hyvät tilat syntyvät kuuntelemalla.",
+        "text": "Northstar Workshop on tätä portfoliota varten luotu kuvitteellinen puusepänverstas. Esimerkkisisältö näyttää, miten palvelut, brändi ja yhteydenotto yhdistyvät samaan sivustoon.",
+        "highlights": [
+          {
+            "value": "Puu",
+            "label": "Luonnollinen materiaali"
+          },
+          {
+            "value": "Idea",
+            "label": "Yhteinen lähtökohta"
+          },
+          {
+            "value": "Tila",
+            "label": "Sinun tarpeisiisi"
+          }
+        ],
+        "quote": "Kaunis yksityiskohta toimii myös arjessa.",
+        "quoteAuthor": "Northstar Workshop · kuvitteellinen yritys",
+        "sectionLabel": "Ajatuksemme"
+      },
+      "contact": {
+        "heading": "Mitä rakennetaan seuraavaksi?",
+        "subtext": "Tämä on portfolion esimerkkisivu. Yhteystiedot eivät kuulu todelliselle yritykselle.",
+        "cta": "Lähetä viesti",
+        "sectionLabel": "Aloitetaan keskustelu",
+        "variant": "form"
+      }
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000003",
+    "company_name": "Cedar & Stone",
+    "ceo_name": "Example Contact",
+    "url": "https://cedar-stone.example",
+    "phone": "",
+    "email": "hello@cedar-stone.example",
+    "city": "Tampere",
+    "industry": "Rakentaminen",
+    "created_at": "2026-10-22T09:00:00Z",
+    "site_quality": "72",
+    "site_quality_reason": "Esimerkkianalyysi: sivuston rakennetta ja mobiilinäkymää voidaan selkeyttää.",
+    "site_quality_flags": [
+      "Dated layout",
+      "Mobile usability"
+    ],
+    "has_demo_built": true,
+    "demo_slug": "cedar-stone",
+    "demo_url": "http://localhost:3000/cedar-stone",
+    "funnel_stage": "deal-closed",
+    "sms_status": "sent",
+    "sms_sent_at": "2026-11-02T09:00:00Z",
+    "email_status": null,
+    "email_sent_at": null,
+    "demo_opened_at": "2026-11-02T10:00:00Z",
+    "demo_open_count": 1,
+    "demo_deleted_at": null,
+    "demo_built_at": "2026-11-01T10:00:00Z",
+    "batch_name": "Portfolio examples",
+    "title": "Example role",
+    "company_size": 5,
+    "gif_url": "/images/examples/demo-preview.gif",
+    "content": {
+      "slug": "cedar-stone",
+      "company": {
+        "name": "Cedar & Stone",
+        "tagline": "Tilaa ajatuksille. Muotoa puulle.",
+        "city": "Helsinki",
+        "industry": "Puusepäntyö",
+        "phone": "",
+        "email": "hello@cedar-stone.example",
+        "website": "https://cedar-stone.example",
+        "primaryColor": "#bd512e",
+        "navTheme": "dark",
+        "logo": "/images/examples/northstar-logo.svg",
+        "heroImage": "/images/examples/workshop.svg",
+        "locations": [
+          "Helsinki",
+          "Espoo"
+        ]
+      },
+      "hero": {
+        "headline": "Tilasi. Sinun näköisesi.",
+        "subtext": "Mittatilauskalusteita ja huolella suunniteltuja tiloja. Kuvitteellinen Northstar Workshop näyttää, miten yrityksen tarina muuttuu verkkosivustoksi.",
+        "ctaPrimary": {
+          "label": "Kerro ideastasi",
+          "href": "#yhteystiedot"
+        },
+        "ctaSecondary": {
+          "label": "Tutustu palveluihin",
+          "href": "#features"
+        },
+        "credentialStrip": [
+          "Mittatilaustyö",
+          "Luonnonmateriaalit",
+          "Yhdessä suunniteltu"
+        ]
+      },
+      "nav": [
+        {
+          "label": "Palvelut",
+          "href": "#features"
+        },
+        {
+          "label": "Meistä",
+          "href": "#about"
+        },
+        {
+          "label": "Yhteystiedot",
+          "href": "#yhteystiedot"
+        }
+      ],
+      "services": [
+        {
+          "name": "Mittatilauskalusteet",
+          "description": "Tilaasi sopivia säilytysratkaisuja ja kalusteita luonnonmateriaaleista.",
+          "iconName": "Wrench"
+        },
+        {
+          "name": "Tilasuunnittelu",
+          "description": "Yhdistämme toimivan arjen, rauhalliset sävyt ja selkeät yksityiskohdat.",
+          "iconName": "Buildings"
+        },
+        {
+          "name": "Asennus ja viimeistely",
+          "description": "Huolellinen toteutus suunnittelupöydältä valmiiseen kokonaisuuteen.",
+          "iconName": "CheckCircle"
+        }
+      ],
+      "servicesSection": {
+        "heading": "Ideasta osaksi arkea.",
+        "subtext": "Esimerkki palveluista, jotka voidaan esittää selkeänä kokonaisuutena.",
+        "sectionLabel": "Palvelumme"
+      },
+      "brands": [],
+      "about": {
+        "heading": "Hyvät tilat syntyvät kuuntelemalla.",
+        "text": "Northstar Workshop on tätä portfoliota varten luotu kuvitteellinen puusepänverstas. Esimerkkisisältö näyttää, miten palvelut, brändi ja yhteydenotto yhdistyvät samaan sivustoon.",
+        "highlights": [
+          {
+            "value": "Puu",
+            "label": "Luonnollinen materiaali"
+          },
+          {
+            "value": "Idea",
+            "label": "Yhteinen lähtökohta"
+          },
+          {
+            "value": "Tila",
+            "label": "Sinun tarpeisiisi"
+          }
+        ],
+        "quote": "Kaunis yksityiskohta toimii myös arjessa.",
+        "quoteAuthor": "Northstar Workshop · kuvitteellinen yritys",
+        "sectionLabel": "Ajatuksemme"
+      },
+      "contact": {
+        "heading": "Mitä rakennetaan seuraavaksi?",
+        "subtext": "Tämä on portfolion esimerkkisivu. Yhteystiedot eivät kuulu todelliselle yritykselle.",
+        "cta": "Lähetä viesti",
+        "sectionLabel": "Aloitetaan keskustelu",
+        "variant": "form"
+      }
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000004",
+    "company_name": "Copper Trail Services",
+    "ceo_name": "Example Contact",
+    "url": "https://copper-trail-services.example",
+    "phone": "",
+    "email": "hello@copper-trail-services.example",
+    "city": "Helsinki",
+    "industry": "Kiinteistöhuolto",
+    "created_at": "2026-10-23T09:00:00Z",
+    "site_quality": "67",
+    "site_quality_reason": "Esimerkkianalyysi: sivuston rakennetta ja mobiilinäkymää voidaan selkeyttää.",
+    "site_quality_flags": [
+      "Dated layout",
+      "Mobile usability"
+    ],
+    "has_demo_built": false,
+    "demo_slug": null,
+    "demo_url": null,
+    "funnel_stage": null,
+    "sms_status": null,
+    "sms_sent_at": null,
+    "email_status": null,
+    "email_sent_at": null,
+    "demo_opened_at": null,
+    "demo_open_count": 0,
+    "demo_deleted_at": null,
+    "demo_built_at": null,
+    "batch_name": "Portfolio examples",
+    "title": "Example role",
+    "company_size": 5,
+    "gif_url": null,
+    "content": null
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000005",
+    "company_name": "Birchline Works",
+    "ceo_name": "Example Contact",
+    "url": "https://birchline-works.example",
+    "phone": "",
+    "email": "hello@birchline-works.example",
+    "city": "Espoo",
+    "industry": "Puusepäntyö",
+    "created_at": "2026-10-24T09:00:00Z",
+    "site_quality": "62",
+    "site_quality_reason": "Esimerkkianalyysi: sivuston rakennetta ja mobiilinäkymää voidaan selkeyttää.",
+    "site_quality_flags": [
+      "Dated layout",
+      "Mobile usability"
+    ],
+    "has_demo_built": false,
+    "demo_slug": null,
+    "demo_url": null,
+    "funnel_stage": null,
+    "sms_status": null,
+    "sms_sent_at": null,
+    "email_status": null,
+    "email_sent_at": null,
+    "demo_opened_at": null,
+    "demo_open_count": 0,
+    "demo_deleted_at": null,
+    "demo_built_at": null,
+    "batch_name": "Portfolio examples",
+    "title": "Example role",
+    "company_size": 5,
+    "gif_url": null,
+    "content": null
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000006",
+    "company_name": "Clearwater Design",
+    "ceo_name": "Example Contact",
+    "url": "https://clearwater-design.example",
+    "phone": "",
+    "email": "hello@clearwater-design.example",
+    "city": "Tampere",
+    "industry": "Muotoilu",
+    "created_at": "2026-10-25T09:00:00Z",
+    "site_quality": "57",
+    "site_quality_reason": "Esimerkkianalyysi: sivuston rakennetta ja mobiilinäkymää voidaan selkeyttää.",
+    "site_quality_flags": [
+      "Dated layout",
+      "Mobile usability"
+    ],
+    "has_demo_built": false,
+    "demo_slug": null,
+    "demo_url": null,
+    "funnel_stage": null,
+    "sms_status": null,
+    "sms_sent_at": null,
+    "email_status": null,
+    "email_sent_at": null,
+    "demo_opened_at": null,
+    "demo_open_count": 0,
+    "demo_deleted_at": null,
+    "demo_built_at": null,
+    "batch_name": "Portfolio examples",
+    "title": "Example role",
+    "company_size": 5,
+    "gif_url": null,
+    "content": null
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000007",
+    "company_name": "Aurora Homecraft",
+    "ceo_name": "Example Contact",
+    "url": "https://aurora-homecraft.example",
+    "phone": "",
+    "email": "hello@aurora-homecraft.example",
+    "city": "Helsinki",
+    "industry": "Remontointi",
+    "created_at": "2026-10-26T09:00:00Z",
+    "site_quality": "52",
+    "site_quality_reason": "Esimerkkianalyysi: sivuston rakennetta ja mobiilinäkymää voidaan selkeyttää.",
+    "site_quality_flags": [
+      "Dated layout",
+      "Mobile usability"
+    ],
+    "has_demo_built": false,
+    "demo_slug": null,
+    "demo_url": null,
+    "funnel_stage": null,
+    "sms_status": null,
+    "sms_sent_at": null,
+    "email_status": null,
+    "email_sent_at": null,
+    "demo_opened_at": null,
+    "demo_open_count": 0,
+    "demo_deleted_at": null,
+    "demo_built_at": null,
+    "batch_name": "Portfolio examples",
+    "title": "Example role",
+    "company_size": 5,
+    "gif_url": null,
+    "content": null
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000008",
+    "company_name": "Fieldnote Interiors",
+    "ceo_name": "Example Contact",
+    "url": "https://fieldnote-interiors.example",
+    "phone": "",
+    "email": "hello@fieldnote-interiors.example",
+    "city": "Espoo",
+    "industry": "Sisustussuunnittelu",
+    "created_at": "2026-10-27T09:00:00Z",
+    "site_quality": "47",
+    "site_quality_reason": "Esimerkkianalyysi: sivuston rakennetta ja mobiilinäkymää voidaan selkeyttää.",
+    "site_quality_flags": [
+      "Dated layout",
+      "Mobile usability"
+    ],
+    "has_demo_built": false,
+    "demo_slug": null,
+    "demo_url": null,
+    "funnel_stage": null,
+    "sms_status": null,
+    "sms_sent_at": null,
+    "email_status": null,
+    "email_sent_at": null,
+    "demo_opened_at": null,
+    "demo_open_count": 0,
+    "demo_deleted_at": null,
+    "demo_built_at": null,
+    "batch_name": "Portfolio examples",
+    "title": "Example role",
+    "company_size": 5,
+    "gif_url": null,
+    "content": null
+  }
+]
